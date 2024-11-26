@@ -5,7 +5,9 @@ Here’s how to make your Python script run every time you start Ubuntu:
 1. Create a .desktop file for autostart
 Open a terminal and run:
 
+  ```
   nano ~/.config/autostart/random_wallpaper.desktop
+  ```
 
 If the folder ~/.config/autostart doesn’t exist, create it:
 
