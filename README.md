@@ -11,10 +11,13 @@ Open a terminal and run:
 
 If the folder ~/.config/autostart doesn’t exist, create it:
 
+```
   mkdir -p ~/.config/autostart
+```
 
 Paste the following content into the editor:
 
+```
   [Desktop Entry]
   Type=Application
   Exec=python3 /path/to/your/script/random_wallpaper.py
@@ -22,6 +25,7 @@ Paste the following content into the editor:
   X-GNOME-Autostart-enabled=true
   Name=Random Wallpaper Setter
   Comment=Sets a random wallpaper on system startup
+```
 
 Replace /path/to/your/script/random_wallpaper.py with the full path to your Python script.
 
